@@ -2,13 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
-.congratulation{
-    background-color: #2bcb0b;
+.congratulation {
+    /* background-color: #2bcb0b; */
+    overflow: hidden;
 }
+
 canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+html,
+body {
+    overflow: hidden;
 }

@@ -404,7 +404,7 @@ window.addEventListener( 'resize', function(){
 })
 
 function handleResize() {
-    var minWidth = 428; // Минимальная ширина экрана для адаптивности
+    var minWidth = 426; // Минимальная ширина экрана для адаптивности
     var windowWidth = window.innerWidth;
 
     // Проверяем, если ширина экрана меньше минимальной ширины для адаптивности
